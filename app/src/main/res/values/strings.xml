@@ -6,6 +6,9 @@
     <string name="password">password</string>
     <string name="register">Register</string>
     <string name="progressBar">ProgressBar</string>
-    <string name="click_to_login">Click to login</string>
-    <string name="click_to_register">click to register</string>
+    <string name="click_to_login"><u>Click to login</u></string>
+    <string name="click_to_register"><u>click to register</u></string>
+    <string name="title_activity_landing_page">landingPage</string>
+    <string name="ayo_mulai_m">Mari berkarya bersama</string>
+    <string name="mulai_sekarang">Mulai Sekarang</string>
 </resources>
