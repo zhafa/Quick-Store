@@ -54,7 +54,7 @@ public class Register extends AppCompatActivity {
         editTextPassword = findViewById(R.id.password);
         buttonReg = findViewById(R.id.btn_register);
         progressBar = findViewById(R.id.progressBar);
-        textView = findViewById(R.id.LoginNow);
+        textView = findViewById(R.id.RegisterNow);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -9,6 +9,7 @@
     android:padding="15dp"
     tools:context=".Login">
 
+    android:imageResource="@drawable/log`"
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
