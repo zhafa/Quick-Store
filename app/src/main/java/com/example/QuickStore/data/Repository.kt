@@ -348,6 +348,20 @@ class Repository constructor(
                     return@addSnapshotListener
                 }
             }
-    }
 
+    }
+    fun deleteCerita(ceritaId: String, onSuccess: () -> Unit, onFailed: (Exception) -> Unit) {
+        firestore.collection("cerita").document(ceritaId)
+            .delete()
+            .addOnSuccessListener { onSuccess() }
+            .addOnFailureListener { onFailed(it) }
+    }
+    fun logout(onSuccess: () -> Unit, onFailed: (Exception) -> Unit) {
+        try {
+            auth.signOut()
+            onSuccess()
+        } catch (e: Exception) {
+            onFailed(e)
+        }
+    }
 }

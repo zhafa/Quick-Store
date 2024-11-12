@@ -51,6 +51,7 @@ import com.example.QuickStore.ui.theme.Purple9
 import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalLayoutApi::class)
+
 @Composable
 fun EditCerita(navController: NavController, cerita_id: String) {
     val viewModel : EditCeritaViewModel = viewModel()
@@ -222,6 +223,24 @@ fun EditCerita(navController: NavController, cerita_id: String) {
                         style = MaterialTheme.typography.bodyMedium
                     )
                 }
+                Spacer(modifier = Modifier.height(32.dp))
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(50.dp)
+                        .background(color = Color.Red, shape = RoundedCornerShape(100))
+                        .clickable {
+                            viewModel.deleteCerita(cerita_id)
+                        },
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = "Hapus cerita",
+                        color = Color.White,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+
                 Spacer(modifier = Modifier.height(5.dp))
                 Box(modifier = Modifier.fillMaxWidth().padding(horizontal = 15.dp), contentAlignment = Alignment.Center){
                     Text(text = viewModel.errMsg.value,style = MaterialTheme.typography.bodySmall, color = Color.Red)
