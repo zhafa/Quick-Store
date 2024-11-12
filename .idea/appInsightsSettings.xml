@@ -9,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.myapps" />
-                  <option name="mobileSdkAppId" value="1:968035702713:android:d750b453dcfec4f08d0868" />
-                  <option name="projectId" value="activity-list-ff8f0" />
-                  <option name="projectNumber" value="968035702713" />
+                  <option name="appId" value="com.example.QuickStore" />
+                  <option name="mobileSdkAppId" value="1:431994031119:android:39838def706f619e9da77a" />
+                  <option name="projectId" value="mindfulme-7bc4d" />
+                  <option name="projectNumber" value="431994031119" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

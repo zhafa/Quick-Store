@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "968035702713",
-    "project_id": "activity-list-ff8f0",
-    "storage_bucket": "activity-list-ff8f0.firebasestorage.app"
+    "project_number": "431994031119",
+    "project_id": "mindfulme-7bc4d",
+    "storage_bucket": "mindfulme-7bc4d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:968035702713:android:d750b453dcfec4f08d0868",
+        "mobilesdk_app_id": "1:431994031119:android:39838def706f619e9da77a",
         "android_client_info": {
-          "package_name": "com.example.myapps"
+          "package_name": "com.example.QuickStore"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDKvRdOlsyr54bSPCn6liU-e55TBFmebG8"
+          "current_key": "AIzaSyDIQQrPveA7Jy3gdW5o4EYSLnLNb57cfWs"
         }
       ],
       "services": {
