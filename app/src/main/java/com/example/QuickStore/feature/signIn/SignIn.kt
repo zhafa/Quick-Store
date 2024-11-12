@@ -101,7 +101,7 @@ fun SignIn(navController: NavController) {
                 color = Color.Black
             )
             Text(
-                text = "Quick Store",
+                text = "QuickStore",
                 style = MaterialTheme.typography.displayMedium,
                 color = Purple6
             )
