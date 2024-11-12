@@ -22,6 +22,7 @@ import com.example.QuickStore.feature.profile.Profile
 import com.example.QuickStore.feature.signIn.SignIn
 import com.example.QuickStore.feature.signUp.SignUp
 import com.example.QuickStore.feature.splash.SplashScreen
+import com.example.QuickStore.feature.settingsScreen.SettingsScreen
 
 @Composable
 fun Navigation() {
@@ -102,6 +103,9 @@ fun Navigation() {
         {
             val cerita_id = it.arguments?.getString("cerita_id") ?: ""
             EditCerita(navController = navController, cerita_id)
+        }
+        composable(route = Screen.Settings.route) {
+            SettingsScreen(navController = navController)
         }
     }
 }
